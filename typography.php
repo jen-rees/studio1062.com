@@ -52,7 +52,14 @@
             <h1>Original Typography Design</h1>
             <h2><a href="assets/bloodyMary_specbook.pdf">View Specbook {2.2MB}</a><h2>
             <div class="project">
-
+                
+                <div class="cover">
+                <img src="assets/type/bloodyMary2.jpg" alt="Bloody Mary // Custom Typography" />
+                </div>
+                
+                <div class="cover">
+                <img src="assets/type/bloodyMary3.jpg" alt="Bloody Mary // Custom Typography" />
+                </div>
             	<div class="twoColumn">
                 <img src="assets/type/bloody_mary_font_design_poster.jpg" alt="Bloody Mary // Custom Typography" />
                 </div>
@@ -69,13 +76,7 @@
                 <img src="assets/type/bloodyMary4.jpg" alt="Bloody Mary // Custom Typography" />
                 </div>
           
-                <div class="cover">
-                <img src="assets/type/bloodyMary2.jpg" alt="Bloody Mary // Custom Typography" />
-                </div>
                 
-                <div class="cover">
-                <img src="assets/type/bloodyMary3.jpg" alt="Bloody Mary // Custom Typography" />
-                </div>
    
             </div>
     
