@@ -1,0 +1,168 @@
+/* 
+	author: istockphp.com
+*/
+
+/* edit after popup is edited */
+
+#backgroundPopupCypress, #backgroundPopupFootprint, #backgroundPopupRoyalGold, #backgroundPopupATL, #backgroundPopupHSU, #backgroundPopupDanco, #backgroundPopupWetland, #backgroundPopupSWPPP, #backgroundPopupBiological{ 
+	z-index:1;
+	position: fixed;
+	display:none;
+	height:100%;
+	width:100%;
+	background:#000000;	
+	top:0px;  
+	left:0px;
+}
+#toPopupCypress, #toPopupFootprint, #toPopupRoyalGold, #toPopupATL, #toPopupHSU, #toPopupDanco, #toPopupWetland, #toPopupSWPPP, #toPopupBiological {
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background: none repeat scroll 0 0 #eee;
+    border: 10px solid #6D4D1C;
+    /*border-radius: 3px 3px 3px 3px;*/
+	
+	-webkit-box-shadow: 2px 2px 30px 0px rgba(146, 134, 91, 0.8);
+	-moz-box-shadow:    2px 2px 30px 0px rgba(146, 134, 91, 0.8);
+	box-shadow:         2px 2px 30px 0px rgba(146, 134, 91, 0.8);
+
+
+    color: #333333;
+    display: none;
+	font-size: 14px;
+    left: 50%;
+    margin-left: -402px;
+    position: fixed;
+    top: 20%;
+    width: 800px;
+    z-index: 2;
+	padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+div.loader {
+    background: url("../img/loading.gif") no-repeat scroll 0 0 transparent;
+    height: 32px;
+    width: 32px;
+	display: none;
+	z-index: 9999;
+	top: 40%;
+	left: 50%;
+	position: absolute;
+	margin-left: -10px;
+}
+div.close {
+    background: url("../img/closebox.png") no-repeat scroll 0 0 transparent;
+    bottom: 24px;
+    cursor: pointer;
+    float: right;
+    height: 30px;
+    left: 27px;
+    position: relative;
+    width: 30px;
+}
+span.ecs_tooltip {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: 16px;
+    opacity: 0.7;
+    padding: 4px 3px 2px 5px;
+    position: absolute;
+    right: -62px;
+    text-align: center;
+    top: -51px;
+    width: 93px;
+}
+span.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000000;
+    display: block;
+    height: 1px;
+    left: 40px;
+    position: relative;
+    top: 3px;
+    width: 1px;
+}
+
+
+
+
+
+
+/*----------------My styles--------------------------*/
+
+
+#projects {
+	margin: 30px 0 0 0;	
+}
+
+#projects h1 {
+	
+}
+
+.popup-container {
+	width: 50%;
+	min-width: 450px;
+	display: inline;
+	float: left;
+	margin: 20px 0 0 0;	
+}
+.popup-container img {
+	width: 30%;
+	display:inline;
+	float: left;
+	border-radius: 27px;
+	padding: 0;	
+}
+.popup-container .info {
+	width: 60%;	
+	display:inline;
+	float: left;
+	padding: 0 5%;
+}
+
+
+.popup_content {
+    margin: 4px 7px;
+	
+}
+
+.popup_content img {
+	width: 250px;
+	display: inline;
+    float: left;
+	margin: 0 30px 0px 0;
+}
+
+.popup_content .popupinfo {
+	margin: 10px 20px;	
+}
+
+.popup_content p, .popup-container p {
+	
+	letter-spacing: .0em;
+		
+}
+p.proj-text {
+	margin: 0;	
+}
+.popup_content .recent {
+	padding: 0 0 0 262px;	
+}
+
+
+.recent h2 {
+	font-size:1.3em;	
+}
+
+.popupinfo h4 {
+	margin: 0;	
+}

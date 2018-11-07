@@ -1,0 +1,12 @@
+img {
+	border: none;	
+}
+
+footer #social {
+	display: none;	
+}
+
+#footer-text {
+	display: block;
+	float: none;
+}

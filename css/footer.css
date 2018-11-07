@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*---------- footer ----------*/
+footer {
+	margin: 0 0 0 0;	
+	padding: 35px 0 20px 35px;
+	background: #ccc;
+	z-indes: 1000;
+	
+}
+
+footer h1 {
+	margin: 20px 0 5px 0;
+}
+
+
+footer #copy {
+	font-weight: 300 !important;
+	margin: 0 35px 0 0;
+	float: right;
+}
+#footer-img {
+	width: 232px;
+	
+	float: left;
+	display: inline;	
+	padding: 20px 0;
+}
+
+#footer-img img {
+	width: 100%;	
+	border-radius: 116px;
+	opacity: .9;
+	max-width: 140px;
+}
+#footer-img img:hover {
+	
+	opacity: 1;
+}
+#footer-text {
+	padding: 15px 0 0 45px;
+	/* width: 200px; */
+	float: left;
+	display: inline;
+	background: #ccc;
+}
+
+.footer-contact {
+	font-size: 24px;
+	margin: 50px 0 30px;
+}
+
+#twitter-foot {
+	margin: 25px 0;
+}	
+
+
+
+#social {
+	
+		
+}
+#social ul li {
+	display: inline;
+	width: 50px;
+	float: right;
+	padding: 0 10px 0 5px;
+		
+}
+
+.soc-email{
+	display: block;
+	background:url(../assets/social/email_grey.png) center center no-repeat;
+	width: 50px;
+	height: 50px;
+	text-indent: -9999px;
+	
+}
+
+.soc-email:hover {
+	background:url(../assets/social/email.png) center center no-repeat;
+}
+
+.soc-facebook{
+	display: block;
+	background:url(../assets/social/facebook_grey.png) center center no-repeat;
+	width: 50px;
+	height: 50px;
+	text-indent: -9999px;
+	
+}
+
+.soc-facebook:hover {
+	background:url(../assets/social/facebook.png) center center no-repeat;
+}
+
+.soc-linkedin{
+	display: block;
+	background:url(../assets/social/linkedin_grey.png) center center no-repeat;
+	width: 50px;
+	height: 50px;
+	text-indent: -9999px;
+	
+}
+
+.soc-linkedin:hover {
+	background:url(../assets/social/linkedin.png) center center no-repeat;
+}
+
+.soc-googleplus{
+	display: block;
+	background:url(../assets/social/googleplus_grey.png) center center no-repeat;
+	width: 50px;
+	height: 50px;
+	text-indent: -9999px;
+	
+}
+
+.soc-googleplus:hover {
+	background: url(../assets/social/googleplus.png) center center no-repeat;
+}
+
+
+@media screen and (max-width: 100em) {
+footer {
+	padding: 35px 0px;
+	text-align: center;	
+	background: #ccc;
+}
+footer #copy {
+	margin: 0 35px 0 0;
+	display: block;
+	float: none;
+	/* width: 200px; */
+	margin: 0px auto;
+	text-align: center;
+	color: #fff;
+}
+#footer-img {
+	width: 232px;
+	margin: 0px auto;
+	float: none;
+	display: block;	
+}
+#footer-text {
+	padding: 15px 0 0 0;
+	/* width: 200px; */
+	float: none;
+	display: block;
+	background: #ccc;
+	text-align: center;
+	margin: 0px auto;
+	
+}
+
+#footer-text a:link, #footer-text a:visited {
+	color: #333;
+}
+#footer-text p{
+	text-align: center;
+}
+
+
+#social {
+	margin: 0px auto;
+		
+}
+}

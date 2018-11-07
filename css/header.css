@@ -1,0 +1,136 @@
+/* CSS Document */
+
+header {
+	width: 100%;
+	margin: 0px auto;
+}
+
+hgroup {
+	width:100%;
+	margin: 10px auto;	
+	/* max-width: 1200px; */
+}
+
+#logo {
+	background: url(../assets/logo.png) center center no-repeat;
+	background-size:contain;
+	width:35%;
+	max-width: 500px;
+	float: left;
+	display: inline;
+	margin: 50px 30px;
+	line-height: 90px;
+	
+	-ms-behavior: url(/backgroundsize.min.htc);
+	
+}
+
+header h1 {
+	text-indent: -9999px;	
+}
+
+/*
+#header-right {
+	display: inline;
+	float: right;
+	text-align: right;
+	margin: 15px 0 0 0;	
+	width: auto;
+
+}
+*/
+
+#header-right-mobile {
+	/* display: inline; */
+	float: right;
+	/* text-align: center; */
+	margin: 25px 30px 0 0;	
+
+}
+
+
+#header-right-mobile ul li {
+	float: left;
+	display: inline;
+	text-align:center;
+	margin: 0px 5px 00 ;
+	padding: 10px 15px;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+
+
+
+
+
+#blog-icon	{
+	padding: 15px 0 0 0;
+}
+
+#blog-icon:hover {
+	opacity: 0.7;	
+}
+
+#header-right-mobile ul li{
+	
+	
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+	header {
+		margin: 20px 0;
+	}
+	#logo {
+		width: 100%;
+    margin: 16px 0;
+    max-width: 500px;
+	}
+	#header-right-mobile {
+    display: inline;
+    float: right;
+    width: 100%;
+    text-align: center;
+    margin: 5px auto;	
+
+	}
+	#header-right-mobile ul li{
+		margin: 20px 10px 0 0 ;
+		padding: 10px;
+		
+	}
+
+	/*header {
+		width: 100%;	
+	}
+	#header-right {
+		display: inline;
+		width: 100%;
+		
+		background: #fff;
+	}
+	*/
+
+
+
+	#header-right-mobile ul {
+		width: 333px;
+		margin: 20px auto;
+	}
+
+
+}
+
+@media screen and (max-width: 500px) {
+ #logo {
+	line-height: 60px;
+	float: right;
+ }
+ #header-right-mobile ul {
+	width: 180px;
+ }
+}
