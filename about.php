@@ -56,11 +56,11 @@
                 <img src="assets/jeniferFitch.jpg" align="left" />
                 </div>
                 <div id="about-text">
-                <h1>About Jenifer Fitch</h1>
-                <p>Also know as Jenifer Rees.</a>
+                <h1>About Jenifer Rees</h1>
+                <p>Also know as Jenifer Fitch.</a>
                 <p>Studio 1062 is my freelance business and this is my portfolio.</p>
-                <p>I received my BFA in Web Design + New Media from the Academy of Art University San Francisco 2015. My education taught me professional design concepts & principals, visual design strategies, user experience design, general web design, and motion graphics.</p>
-                <p>Currently, I am a web designer for the Marketing & Communications department at <a href="https://humboldt.edu">Humboldt State University</a>. Working here has helped me learn how to collaborate with designers, the university photographer, editorial staff, and multiple layers of upper management. A list of of the projects I have done for HSU are available upon request.</p>
+                <p>I received my BFA in <a href="https://www.academyart.edu/academics/web-design/">Web Design + New Media</a> from the <a href="https://www.academyart.edu/">Academy of Art University San Francisco</a> 2015. My education taught me professional design concepts & principals, visual design strategies, user experience design, general web design, and motion graphics.</p>
+                <p>Currently, I am a web designer for the Marketing & Communications department at <a href="https://humboldt.edu">Humboldt State University</a>. Working here has shown me what it takes to collaborate with highly talented designers, the university photographer, editorial staff, and multiple layers of upper management. A list of of the projects I have done for HSU are available upon request.</p>
                 <p>I also do freelance web and graphic design which I started doing before attending AAU in 2009. I set up my own business structure and do everything from acquiring clients, preparing proposals, project management, design research, content organization, rebranding, executing designs, invoicing, and following up with the clients after job is done. I maintain all the websites I create and strive to have on going working relationship with many of my clients.</p> 
                 <p>My passion as a visual designer is to focus on the design and marketing of businesses that encourage positive human development and honesty.</p>
                 <!-- <p>It's important to make sure client and designer work well together, therefore Jen offers a free 1 hour consultation. Please fill out the form below to find out more.</p> -->

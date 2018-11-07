@@ -53,7 +53,8 @@
         <h1 class="title">Web Design & Content Strategy</h1>
             <div id="web">
             <div class="project">
-                
+            
+        
                 <div class="twoColumn">
                     <div class="web">
                         <a href="http://arcatachamber.com" target="_blank"><img src="assets/web/arcatachamber.jpg" alt="Arcata Chamber of Commerce" /></a>
@@ -61,7 +62,13 @@
                         <p><strong>2017</strong> - Customized version of <a href="https://www.drupal.org/project/omega">Omega Theme</a> for <a href="https://www.drupal.org">Drupal</a>. Built for an already existing Drupal framwork. I helped with content strategy, organization, and custom Drupal functionality. </p>
                     </div>
                 </div>
-
+                <div class="twoColumn">
+                    <div class="web">
+                        <a href="http://jewelldistillery.com" target="_blank"><img src="assets/web/jewelldistillery.jpg" alt="Jewell distillery" /></a>
+                        <h1><a href="http://jewelldistillery.com" target="_blank">Jewell Distillery</a></h1><h4><a href="http://jewelldistillery.com" target="_blank">jewelldistillery.com</a></h4>
+                        <p><strong>2018</strong> - Customized version of <a href="https://www.drupal.org/project/bootstrap">Bootstrap</a> theme for <a href="https://www.drupal.org">Drupal</a>. Content organization, full site mockup in Figma (<a href="https://www.figma.com/proto/0wwHgCMoBv39HXw3Tlf3xnOH/Website-Mockup?node-id=106%3A2&viewport=1305%2C490%2C0.0821407&scaling=min-zoom">See design online</a>), photoshoped products photos, and vectorized logo.</p>
+                    </div>
+                </div>
                 <div class="twoColumn">
                     <div class="web">
                         <a href="http://www.jeniferfitch.com/trinidad" target="_blank"><img src="assets/web/trinidad.jpg" alt="Trinidad Website" /></a>
@@ -78,7 +85,7 @@
                     <div class="web">
                         <a href="http://www.streamlineplanning.net" target="_blank"><img src="assets/web/streamline.jpg" alt="Streamline Planning Consultants, Arcata, CA 95521" /></a>
                         <a href="http://www.streamlineplanning.net" target="_blank"><h1>Streamline Planning Consultants</h1><h4>streamlineplanning.net</h4></a>
-                        <p><strong>2013</strong> - I designed and coded 16 a page website for a planning firm. I also helped with content strategy, site organization, performed usability testing with the team.</p>
+                        <p><strong>2013</strong> - I designed and coded 16 a page website for a planning firm. I also helped with content strategy, site organization, and performed usability testing with the team.</p>
                         <h4><a href="assets/jfitch_streamline.pdf">View Design Strategy [PDF]</a></h4>
                         </div>
                     </div>

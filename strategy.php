@@ -72,7 +72,7 @@
               <div class="clear"></div>
               <div class="project-about">
                 <h1>San Francisco Underground Film Festival</h1>
-                <p>Logo, VIP Badge, Poster, One Color Flyer, Postcard &amp; Tickets.</p>
+                <p>Logo, VIP Badge, Poster, One Color Flyer, Postcard &amp; Tickets. Done as a school project.</p>
                 <h2><a href="assets/jfitch_SFUFF.pdf">Process Journal [PDF]</a></h2> 
             </div>
 
