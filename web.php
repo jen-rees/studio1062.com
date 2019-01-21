@@ -1,31 +1,22 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Web Design // Studio 1062 // Web &amp; Graphic Designer</title>
+    <meta charset="UTF-8">
+    <title>Web Design // Studio 1062 // Web &amp; Graphic Designer</title>
 
-<!-- all scripts -->
+    <!-- all scripts -->
+    <?php include 'php/scripts.php'; ?>
 
-<?php include 'php/scripts.php'; ?>
-
-<!-- jQuery library (served from Google) -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
+    <!-- jQuery library (served from Google) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
 </head>
-
-
-
-
 
 <body>
 <?php include_once("php/analyticstracking.php") ?>
 <div id="wrap">
 
-
-    <?php include 'php/header.php'; ?>
-    
-    
+    <?php include 'php/header.php'; ?> 
     
     <div class="clear"></div>
     <div id="sticky_navigation_wrapper">
@@ -66,7 +57,7 @@
                     <div class="web">
                         <a href="http://jewelldistillery.com" target="_blank"><img src="assets/web/jewelldistillery.jpg" alt="Jewell distillery" /></a>
                         <h1><a href="http://jewelldistillery.com" target="_blank">Jewell Distillery</a></h1><h4><a href="http://jewelldistillery.com" target="_blank">jewelldistillery.com</a></h4>
-                        <p><strong>2018</strong> - Customized version of <a href="https://www.drupal.org/project/bootstrap">Bootstrap</a> theme for <a href="https://www.drupal.org">Drupal</a>. Content organization, full site mockup in Figma (<a href="https://www.figma.com/proto/0wwHgCMoBv39HXw3Tlf3xnOH/Website-Mockup?node-id=106%3A2&viewport=1305%2C490%2C0.0821407&scaling=min-zoom">See design online</a>), photoshoped products photos, and vectorized logo.</p>
+                        <p><strong>2018</strong> - Customized version of <a href="https://www.drupal.org/project/bootstrap">Bootstrap</a> theme for <a href="https://www.drupal.org">Drupal</a>. Content organization, full site mockup in Figma (<a href="https://www.figma.com/proto/0wwHgCMoBv39HXw3Tlf3xnOH/Website-Mockup?node-id=106%3A2&viewport=1305%2C490%2C0.0821407&scaling=min-zoom">See design online</a>), photoshoped product photos, and vectorized logo.</p>
                     </div>
                 </div>
                 <div class="twoColumn">
@@ -85,7 +76,7 @@
                     <div class="web">
                         <a href="http://www.streamlineplanning.net" target="_blank"><img src="assets/web/streamline.jpg" alt="Streamline Planning Consultants, Arcata, CA 95521" /></a>
                         <a href="http://www.streamlineplanning.net" target="_blank"><h1>Streamline Planning Consultants</h1><h4>streamlineplanning.net</h4></a>
-                        <p><strong>2013</strong> - I designed and coded 16 a page website for a planning firm. I also helped with content strategy, site organization, and performed usability testing with the team.</p>
+                        <p><strong>2013</strong> - I designed and coded a 16 page website for a planning firm. I also helped with content strategy, site organization, and performed usability testing with the team.</p>
                         <h4><a href="assets/jfitch_streamline.pdf">View Design Strategy [PDF]</a></h4>
                         </div>
                     </div>

@@ -1,36 +1,28 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>About // Jenifer Fitch // Web &amp; Graphic Designer</title>
+    <meta charset="UTF-8">
+    <title>About // Jenifer Fitch // Web &amp; Graphic Designer</title>
 
-<!-- all scripts -->
+    <!-- all scripts -->
+    <?php include 'php/scripts.php'; ?>
 
-<?php include 'php/scripts.php'; ?>
+    <!-- jQuery library (served from Google) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
-<!-- jQuery library (served from Google) -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
-
-<link rel="stylesheet" type="text/css" href="css/hovereffects.css" />
+    <!-- stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/hovereffects.css" />
 
 </head>
-
-
-
-
 
 <body>
 
 <div id="wrap">
 
-
     <?php include 'php/header.php'; ?>
     
-    
-    
     <div class="clear"></div>
-   <div id="sticky_navigation_wrapper">
+    <div id="sticky_navigation_wrapper">
 		<div id="sticky_navigation">
             <nav class="nav-collapse">
                 <ul>
@@ -56,8 +48,7 @@
                 <img src="assets/jeniferFitch.jpg" align="left" />
                 </div>
                 <div id="about-text">
-                <h1>About Jenifer Rees</h1>
-                <p>Also know as Jenifer Fitch.</a>
+                <h1>About Jenifer Fitch</h1>
                 <p>Studio 1062 is my freelance business and this is my portfolio.</p>
                 <p>I received my BFA in <a href="https://www.academyart.edu/academics/web-design/">Web Design + New Media</a> from the <a href="https://www.academyart.edu/">Academy of Art University San Francisco</a> 2015. My education taught me professional design concepts & principals, visual design strategies, user experience design, general web design, and motion graphics.</p>
                 <p>Currently, I am a web designer for the Marketing & Communications department at <a href="https://humboldt.edu">Humboldt State University</a>. Working here has shown me what it takes to collaborate with highly talented designers, the university photographer, editorial staff, and multiple layers of upper management. A list of of the projects I have done for HSU are available upon request.</p>
@@ -69,10 +60,7 @@
                 <h4>(707) 631-6934</h4>
                 <h4><a href="mailto:jen@studio1062.com?subject=Message from studio1062.com">jen@studio1062.com</a></h4>
                 <h4><a href="http://linkedin.com/in/jeniferfitch" target="_blank">linkedin.com/in/jeniferfitch</a></h4>
-                
-                
-				
-                
+
                 <!--
                 <div id="social">
                 <ul>
