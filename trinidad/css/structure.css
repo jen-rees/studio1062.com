@@ -1,0 +1,452 @@
+/* This CSS document sets the colors, structure of the page, font sizes, . */
+* {
+	transition:ease-in-out 0.2s;	
+}
+
+body {
+	margin: 0px;
+	font-family: "museo-sans",sans-serif; 
+	font-weight:300;	
+	font-size: 16px;
+	letter-spacing: .01em;
+	
+	
+}
+
+
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0px;
+}
+
+
+
+.clear {
+	clear: both;	
+}
+
+li {
+	list-style: none;
+	line-height: 22px;
+}
+
+h1, h2, h3, h4, li {
+	/*font-family: "futura-pt", sans-serif;*/
+}
+
+h1 {
+	
+	font-size: 2em;
+	font-weight: 400	
+}
+h2 {
+	font-weight:400;
+	text-transform: uppercase;
+	font-size: 1.6em;
+	line-height: 1em;
+		
+}
+h3 {
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	font-size: 1.3em;
+	line-height: 1.6em;
+}
+p {
+	line-height: 22px;
+	text-align: left;
+	margin: 0 0 8px 0;
+}
+figure {
+	margin: 0px;	
+}
+strong {
+	color: #000;
+	font-size:1.2em;	
+}
+
+
+/*---------- colors ----------*/ 
+
+/*bg colors*/
+
+.blue-bg {
+	background: #033D5C;
+}
+
+/*text colors*/
+
+.black-text {
+	color: #000;	
+}
+
+.white-text {
+	color: #fff;	
+}
+
+.blue-text {
+	color: #033D5C;	
+}
+
+/*---------- Fonts ----------*/
+
+.caps {
+	text-transform: uppercase;
+}
+.light {
+	font-weight:300;
+	letter-spacing: .05em;	
+}
+.bold {
+	font-weight:700;
+	letter-spacing: .05em;	
+}
+
+.right-align {
+	text-align: right;	
+}
+
+.futura {
+	font-family: "museo-sans", sans-serif;	
+}
+
+.normal {
+	font-weight: 500;	
+}
+.small {
+	font-size: .8em;	
+}
+
+/*---------- default links ----------*/
+
+a {		color: #036;	}	
+
+a:link {
+	text-decoration: none;
+	color: #033D5C;
+}
+a:visited {
+	text-decoration: none;
+	color: #033D5C;
+}
+a:hover {
+	text-decoration: none;
+	color: #666;
+}
+a:active {
+	text-decoration: none;
+	color: #033D5C;
+}
+
+
+
+
+/*---------- page structure ----------*/
+
+
+#main, hgroup {
+	
+	
+
+}
+
+#wrap {
+	
+	
+}
+
+.left {
+	float: left;	
+}
+
+.right {
+	float: right;	
+}
+
+.center {
+	text-align: center;	
+}
+
+hr {
+	margin: 0 0 30px 0 ;	
+}
+img {
+	width: 100%;	
+	margin:0;
+}
+#main {
+	margin:0;
+}
+#main img {
+	margin: 5px 0;	
+}
+#main-content-home, #main-content-government, #main-content-departments, #main-content-facilities, #main-content-resources{
+	padding:1px 0 1px 0;	
+		
+}
+#main-content-home {
+	background: url(../assets/backgrounds/home2.jpg) center center no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+#main-content-government{
+	background: url(../assets/backgrounds/government.jpg) center center no-repeat;
+	background-size:cover;
+	background-attachment:fixed;		
+}
+
+#main-content-departments{
+	background: url(../assets/backgrounds/departments.jpg) center center no-repeat;	
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+#main-content-facilities{
+	background: url(../assets/backgrounds/facilities.jpg) center center no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+#main-content-resources{
+	background: url(../assets/backgrounds/resources.jpg) center center no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+
+#content-container {
+	background: rgb(255, 255,255); /* The Fallback */
+	background: rgba(255,255,255,.85);
+	width: 90%;
+	margin: 270px auto 0;
+	padding: 10px 5% 50px;
+}
+
+#page-title{
+	display: block;
+	width: 100%;	
+}
+#sidebar {
+	width: 100%;
+	display: inline;
+	float: left;
+	padding: 0 0 0 8%;
+		
+}
+#main-container {
+	width: 100%;
+	display: inline;
+	float: left;	
+}
+
+
+.mid {
+	margin: 0;	
+}
+
+
+a.img-hover {
+	opacity: 1;	
+}
+a.img-hover:hover {
+	opacity: 0.75;
+	
+}
+
+/*this gives space for the top nav when using a name*/
+a.anchor{display: block; position: relative; top: -150px; visibility: hidden;}
+
+
+
+/* government images and text  */
+
+.content-img {
+	width: 40%;
+	float: right;
+	display: inline;
+	margin: 20px 0 0 0; 	
+}
+
+.content-text {
+	width: 45%;
+	float: left;
+	display: inline;
+	margin:  0 5% 0 0;	
+}
+
+
+/* departments page structure  */
+.department {
+	clear: both;
+	width: 100%;
+	margin:0 0 25px;	
+}
+.department-img {
+	width: 40%;
+	float: right;
+	display: inline;
+	margin: 0; 	
+}
+
+.department-text {
+	width: 55%;
+	float: left;
+	display: inline;
+	margin:  0 5% 0 0;	
+}
+@media screen and (min-width: 100em) {
+
+.department {
+	clear: none;
+	width: 45%;
+	float:left;
+	display: inline;
+	margin: 0 2.5%; 	
+}
+
+.department-img {
+	width: 100%;
+	
+	margin: 1em 0 0 0; 	
+}
+
+.department-text {
+	width: 100%;
+	
+	margin:  15px 0;	
+}	
+	
+}
+
+@media screen and (max-width: 60em) {
+	.department-img {
+		width: 100%;
+		
+		margin:0px 0; 	
+	}
+	
+	.department-text {
+		width: 100%;
+	
+		margin: 0;	
+	}
+	
+}
+
+
+/*resources page styles*/
+
+
+.resource-link {
+	width: 30%;
+	float: left;
+	display: inline;
+	margin: 25px 3% 0 0;
+}
+.resource-link h3{
+	margin: 0 0 15px 0;
+	text-align: center;
+}
+
+.links-img img{
+	opacity: 1;
+		
+}
+.links-img img:hover {
+	opacity: 0.8;
+		
+}
+.links-info {
+	
+		
+}
+
+
+@media screen and (max-width: 40em) {
+	.resource-link {
+		width: 80%;
+		float: none;
+		display: block;
+		margin: 25px auto 0;
+	}
+}
+
+
+
+
+a {
+	margin: 0;
+	padding: 0;	
+
+}
+
+	
+	
+/* this is for two columns at large screen widths
+@media screen and (min-width: 90em) {
+	.cover {
+		width: 50%;	
+	}
+	.twoColumn {
+		width: 25%;	
+	}
+	
+}
+*/
+
+
+@media screen and (max-width: 60em) and (min-width: 40em) {
+	
+	
+	
+}
+
+@media screen and (max-width: 60em) {
+	p {
+	text-align: left;	
+	}
+	#content-container {
+		margin: 0px auto;	
+	}
+	#sidebar, #main-container {
+		float: none;
+		width: 100%;	
+	}
+	
+		/* department images and text  */
+
+	.content-img {
+		width: 100%;
+		
+		margin:0px 0; 	
+	}
+	
+	.content-text {
+		width: 100%;
+	
+		margin: 0;	
+	}
+}
+
+@media screen and (max-width: 40em) {
+
+
+	
+	
+}
+
+
+
+
+/* govenrment page styles */
+
+.government li {
+	list-style: outside square;
+	margin: 0 0 0 20px;
+}
